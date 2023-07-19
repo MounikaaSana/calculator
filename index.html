@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <center>
+    <div class="out">
+    <div id="center">
+        <h1>My Simple Calculator</h1>
+        <hr>
+        <h3>Enter first number:</h3>
+        <input type="number" id="value1">
+        <h3>Enter second number:</h3>
+        <input type="number" id="value2">
+        <h2 id="result">Result is</h2>
+        <p id="answer1">Here you can see Answer</p>
+        <br>
+        <button id="button1" onclick="add()">Add(+)</button>
+        <button id="button1" onclick="sub()">sub(-)</button>
+        <button id="button1" onclick="mul()">mul(*)</button>
+        <button id="button1" onclick="div()">div(/)</button>
+        <button id="button1" onclick="mod()">mod(%)</button>
+        <br><br>
+     <input type="button"
+      value="Clear-val1" id="clear"
+      onclick="document.getElementById('value1').value = '' "/>
+      <input type="button"
+      value="Clear-val2" id="clear"
+      onclick="document.getElementById('value2').value = '' "/>
+    </div>
+    <script src="./script.js"></script>
+    </div>
+</center>
+</body>
+</html>
